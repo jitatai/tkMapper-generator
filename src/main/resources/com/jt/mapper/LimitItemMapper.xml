@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jt.mapper.LimitItemMapper">
+  <resultMap id="BaseResultMap" type="com.jt.pojo.LimitItem">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="LIMIT_NO" jdbcType="VARCHAR" property="limitNo" />
+    <result column="LIMIT_TYPE" jdbcType="DECIMAL" property="limitType" />
+    <result column="CURRENCY" jdbcType="VARCHAR" property="currency" />
+    <result column="PARTY_ID" jdbcType="VARCHAR" property="partyId" />
+    <result column="STATUS" jdbcType="DECIMAL" property="status" />
+    <result column="CREATE_TIME" jdbcType="CHAR" property="createTime" />
+    <result column="LAST_MODIFY_TIME" jdbcType="CHAR" property="lastModifyTime" />
+    <result column="LAST_MODIFIER" jdbcType="VARCHAR" property="lastModifier" />
+    <result column="A1" jdbcType="VARCHAR" property="a1" />
+    <result column="A2" jdbcType="VARCHAR" property="a2" />
+    <result column="A3" jdbcType="VARCHAR" property="a3" />
+    <result column="A4" jdbcType="VARCHAR" property="a4" />
+    <result column="A5" jdbcType="VARCHAR" property="a5" />
+    <result column="PRE_ITEM_ID" jdbcType="VARCHAR" property="preItemId" />
+    <result column="POST_ITEM_ID" jdbcType="VARCHAR" property="postItemId" />
+    <result column="IS_DELETE" jdbcType="DECIMAL" property="isDelete" />
+    <result column="MA1" jdbcType="VARCHAR" property="ma1" />
+    <result column="MA2" jdbcType="VARCHAR" property="ma2" />
+    <result column="MA3" jdbcType="VARCHAR" property="ma3" />
+    <result column="MA4" jdbcType="VARCHAR" property="ma4" />
+    <result column="MA5" jdbcType="VARCHAR" property="ma5" />
+    <result column="ITEM_GRP_ID" jdbcType="DECIMAL" property="itemGrpId" />
+    <result column="BORROWED_ITEM_ID" jdbcType="DECIMAL" property="borrowedItemId" />
+    <result column="BORROW_ITEM_ID" jdbcType="DECIMAL" property="borrowItemId" />
+    <result column="BORROW_VIRTUAL_ITEM_ID" jdbcType="DECIMAL" property="borrowVirtualItemId" />
+    <result column="BORROW_MAX_AMOUNT" jdbcType="DECIMAL" property="borrowMaxAmount" />
+    <result column="SECU_ACCT_IDS" jdbcType="VARCHAR" property="secuAcctIds" />
+    <result column="GTEQ1" jdbcType="VARCHAR" property="gteq1" />
+  </resultMap>
+</mapper>
